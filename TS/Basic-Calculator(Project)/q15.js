@@ -1,0 +1,13 @@
+"use strict";
+let units = 150;
+let totalBill = 0;
+if (units <= 100) {
+    totalBill = units * 5;
+}
+else {
+    let baseCharge = 100 * 5;
+    let extraUnits = units - 100;
+    let extraCharge = extraUnits * 8;
+    totalBill = baseCharge + extraCharge;
+}
+console.log(totalBill);

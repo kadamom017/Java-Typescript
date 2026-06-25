@@ -4,6 +4,7 @@ A JavaScript-based interactive web application that combines a real-time countdo
 
 https://github.com/kadamom017/Java-Typescript/blob/main/TS/Countdown%20%26%20Quotes%20Application(Project)/Output(Img)/Screenshot.png
 
+
 📖 Project Overview
 
 This project was developed to demonstrate core JavaScript concepts including:
@@ -18,6 +19,7 @@ clearInterval()
 setTimeout()
 The application displays a live countdown timer, automatically rotates motivational quotes, and shows a welcome modal popup after a delay.
 
+
 ✨ Features
 
 ⏳ Countdown Timer
@@ -27,18 +29,22 @@ Updates every second using setInterval().
 Displays Days, Hours, Minutes, and Seconds.
 Stops automatically using clearInterval() when the timer reaches zero.
 Includes Start and Pause controls.
+
 💬 Motivational Quotes Slider
 
 Quotes stored in a JavaScript array.
 Automatic quote change every few seconds.
 Manual Previous and Next navigation buttons.
 Dynamic DOM updates.
+
 🖼️ Modal Popup
 
 Appears automatically after 5 seconds.
 Implemented using setTimeout().
 Close button included.
 Improves user interaction and engagement.
+
+
 🧠 JavaScript Concepts Demonstrated
 
 Concept	Implementation
@@ -50,6 +56,8 @@ DOM Manipulation	Update countdown, quotes, and modal dynamically
 setInterval()	Countdown updates and quote slider
 clearInterval()	Pause timer and stop countdown
 setTimeout()	Display modal popup after delay
+
+
 📂 Project Structure
 
 Countdown-Quotes-App/
@@ -61,6 +69,7 @@ Countdown-Quotes-App/
 └── Output(Img)/
     ├── Screenshot.png
     ├── Screenshot-1.png
+    
 
 ⚙️ How It Works
 
@@ -83,6 +92,8 @@ Page loads.
 setTimeout() waits 5 seconds.
 Modal popup appears.
 User can close the popup using the close button.
+
+
 🎨 Design Highlights
 
 Modern gradient background
@@ -97,14 +108,18 @@ https://github.com/kadamom017/Java-Typescript/blob/main/TS/Countdown%20%26%20Quo
 
 https://github.com/kadamom017/Java-Typescript/blob/main/TS/Countdown%20%26%20Quotes%20Application(Project)/Output(Img)/Screenshot-1.png
 
+
 🚀 Technologies Used
 
 HTML5
 CSS3
 JavaScript (ES6)
+
+
 🎥 Explanation Video
 
 https://drive.google.com/file/d/1dpEft3VuEPtNJmXgNbMXibmxvafJakvo/view?usp=drive_link
+
 
 👨‍💻 Author
 

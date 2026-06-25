@@ -2,7 +2,7 @@
 
 A JavaScript-based interactive web application that combines a real-time countdown timer, motivational quotes slider, and welcome modal popup to provide an engaging user experience.
 
-TS/Countdown & Quotes Application(Project)/Output(Img)/Screenshot.png
+https://github.com/kadamom017/Java-Typescript/blob/main/TS/Countdown%20%26%20Quotes%20Application(Project)/Output(Img)/Screenshot.png
 
 📖 Project Overview
 
@@ -93,9 +93,9 @@ Centered content using Flexbox
 Clean and user-friendly interface
 📸 Screenshots
 
-TS/Countdown & Quotes Application(Project)/Output(Img)/Screenshot.png
+https://github.com/kadamom017/Java-Typescript/blob/main/TS/Countdown%20%26%20Quotes%20Application(Project)/Output(Img)/Screenshot.png
 
-TS/Countdown & Quotes Application(Project)/Output(Img)/Screenshot-1.png
+https://github.com/kadamom017/Java-Typescript/blob/main/TS/Countdown%20%26%20Quotes%20Application(Project)/Output(Img)/Screenshot-1.png
 
 🚀 Technologies Used
 

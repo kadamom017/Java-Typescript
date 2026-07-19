@@ -12,10 +12,17 @@ This project explores client-side CRUD capabilities, state management, search al
 *   **Iconography:** FontAwesome.
 ---
 
-## Screenshot
+## Screenshot(E-Commerce_Website)
 
-![E-commerce_Website Screenshot](./Output.pdf)
+![Home-Page Screenshot](./Output-Home_Page.pdf)
 
+![Shop-Page Screenshot](./Output-Shop_Page.pdf)
+
+![Add_Product-Page Screenshot](./Output-Add_Product-Page.pdf)
+
+![Cart-Page Screenshot](./Output-Cart_Page.pdf)
+
+![Single_ProductView-Page Screenshot](./Ouput-Single_ProductView-page.pdf)
 
 ## Key Features Implemented
 

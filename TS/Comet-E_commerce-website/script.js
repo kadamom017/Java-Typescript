@@ -1,4 +1,3 @@
-// Application States loaded directly from the HTML components
 let globalProducts = [];
 let shoppingCart = JSON.parse(localStorage.getItem('mix_cart')) || [];
 

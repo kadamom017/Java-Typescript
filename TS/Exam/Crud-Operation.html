@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="./Crud-Operation.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Product Management Hub</h1>
+        </header>
+
+        <aside class="card">
+            <h2 id="form-title">Add New Product</h2>
+            <form id="product-form">
+
+                <input type="hidden" id="product-id">
+                
+                <div class="form-group">
+                    <label for="title">Product Title *</label>
+                    <input type="text" id="title" placeholder="e.g., Wireless Headphones">
+                </div>
+
+                <div class="form-group">
+                    <label for="price">Price (₹) *</label>
+                    <input type="number" id="price" step="0.01" min="0" placeholder="0.00">
+                </div>
+
+                <div class="form-group">
+                    <label for="image">Image URL</label>
+                    <input type="url" id="image" placeholder="https://wrogn.com/products/solid-linen-blend-shirt">
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id="category">
+                        <option value="Electronics">Electronics</option>
+                        <option value="Clothing">Clothing</option>
+                        <option value="Home & Kitchen">Home & Kitchen</option>
+                        <option value="Books">Books</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <button type="submit" id="submit-btn" class="btn-primary">Add Product</button>
+            </form>
+        </aside>
+
+        <main>
+            <div class="card controls-bar">
+                <div>
+                    <input type="text" id="search-input" placeholder="Search products by title...">
+                </div>
+                <div>
+                    <select id="filter-category">
+                        <option value="all">All Categories</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Clothing">Clothing</option>
+                        <option value="Home & Kitchen">Home & Kitchen</option>
+                        <option value="Books">Books</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="sort-price">
+                        <option value="default">Sort By Price</option>
+                        <option value="low-to-high">Low to High</option>
+                        <option value="high-to-low">High to Low</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="product-grid" id="product-container">
+            </div>
+        </main>
+    </div>
+
+    <script src="./Crud-Operation.js"></script>
+</body>
+</html>
